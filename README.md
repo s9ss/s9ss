@@ -28,8 +28,6 @@ i'm Saud — a CS student in Riyadh, and most of what i do is security environme
 
 by day i pretend to understand the syllabus. by night i'm usually one VM away from a broken lab, which is why the lab is in some state of broken most of the time.
 
-when i'm not doing that i'm grinding Rocket League. grand champ 2, which is somehow the part of my life with the most patience in it.
-
 <br clear="right" />
 
 <div align="center">
