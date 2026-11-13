@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/session.svg?v=2" alt="A database session listing the engineer table: sql since 2021, python since 2022, machine_learning since 2024, llm_tooling since 2025" width="100%" />
+  <img src="./assets/session.svg?v=3" alt="A database session listing the engineer table: sql since 2021, python since 2022, machine_learning since 2024, llm_tooling since 2025" width="100%" />
 </div>
 
 <br />
@@ -46,5 +46,5 @@ SELECT contact FROM engineer WHERE handle = 's9ss';
 <br />
 
 <div align="center">
-  <img src="./assets/footer.svg?v=2" width="100%" alt="still querying" />
+  <img src="./assets/footer.svg?v=3" width="100%" alt="still querying" />
 </div>
