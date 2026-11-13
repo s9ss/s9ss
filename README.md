@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/s9ss?tab=repositories"><img src="https://img.shields.io/github/stars/s9ss?style=for-the-badge&label=STARS&labelColor=0B0E13&color=1C2430&logo=github&logoColor=E6EDF3" alt="total stars" /></a>
-  <a href="https://github.com/s9ss?tab=repositories"><img src="https://img.shields.io/github/commit-activity/y/s9ss?style=for-the-badge&label=COMMITS&labelColor=0B0E13&color=1C2430&logo=git&logoColor=E6EDF3" alt="commits this year" /></a>
+  <a href="https://github.com/s9ss?tab=repositories"><img src="https://img.shields.io/badge/OPEN_TO-COLLAB-1C2430?style=for-the-badge&labelColor=0B0E13&logo=handshake&logoColor=E6EDF3" alt="open to collaborating" /></a>
   <a href="https://github.com/s9ss?tab=followers"><img src="https://img.shields.io/github/followers/s9ss?style=for-the-badge&label=FOLLOWERS&labelColor=0B0E13&color=1C2430&logo=github&logoColor=E6EDF3" alt="followers" /></a>
 </div>
 
