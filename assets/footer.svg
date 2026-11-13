@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="still querying">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="assume breach">
   <defs>
     <linearGradient id="panel2" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0B0E13"/>
@@ -17,10 +17,10 @@
 
       .run { animation: run 8s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
       @keyframes run {
-        0% { transform: translateX(0); opacity: 0; }
-        15% { opacity: 1; }
-        85% { opacity: 1; }
-        100% { transform: translateX(252px); opacity: 0; }
+        0%   { transform: translateX(0);      opacity: 0; }
+        15%  { opacity: 1; }
+        85%  { opacity: 1; }
+        100% { transform: translateX(252px);  opacity: 0; }
       }
 
       .pulse { animation: pulse 2.6s ease-in-out infinite; }
@@ -35,14 +35,14 @@
   <rect width="1200" height="220" fill="url(#panel2)"/>
   <rect x="0.5" y="0.5" width="1199" height="219" fill="none" stroke="#E6EDF3" stroke-opacity="0.08"/>
 
-  <text class="sans" x="60" y="92" font-size="38" font-weight="600" letter-spacing="-0.5" fill="#E6EDF3">still querying</text>
-  <rect class="pulse" x="336" y="66" width="10" height="32" rx="1" fill="#5B9DFF"/>
+  <text class="sans" x="60" y="92" font-size="38" font-weight="600" letter-spacing="-0.5" fill="#E6EDF3">assume breach</text>
+  <rect class="pulse" x="318" y="66" width="10" height="32" rx="1" fill="#5B9DFF"/>
 
-  <text class="mono" x="60" y="126" font-size="11" letter-spacing="2.4" fill="#68788A">riyadh · utc+3 · open to collaboration</text>
+  <text class="mono" x="60" y="126" font-size="11" letter-spacing="2.4" fill="#68788A">riyadh · utc+3 · he/him · open to collaboration</text>
 
   <line x1="60" y1="168" x2="312" y2="168" stroke="#E6EDF3" stroke-opacity="0.18"/>
   <rect class="run" x="60" y="166" width="70" height="4" fill="url(#sweep)"/>
 
-  <text class="mono" x="1140" y="164" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#4C5A69">end of result set</text>
-  <text class="mono" x="1140" y="190" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#4C5A69">s9ss / engineer</text>
+  <text class="mono" x="1140" y="164" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#4C5A69">scope · individual / place</text>
+  <text class="mono" x="1140" y="190" text-anchor="end" font-size="10.5" letter-spacing="2" fill="#4C5A69">s9ss / saudx0</text>
 </svg>
