@@ -1,49 +1,27 @@
 <div align="center">
-  <img src="./assets/session.svg?v=4" alt="Build console: an environment build plan next to a capability table listing environment_security, network_defense, offensive_labs and ai_security" width="100%" />
+  <img src="./assets/session.svg?v=5" alt="A late-night terminal log: two VMs up, one broken again, a todo list that says harden the baseline and read the docs first. Beside it, what Saudx0 can do." width="100%" />
 </div>
 
 <br />
 
-### `schema`
+i'm Saud — a CS student in Riyadh. most of what i do is security environments:
+building them, breaking them, and rebuilding them until they hold up.
 
-| column | value |
-| :-- | :-- |
-| `handle` | s9ss |
-| `name` | Saudx0 |
-| `role` | CS student · security environment development |
-| `located` | Riyadh, Saudi Arabia · UTC+3 |
-| `focus` | hardening, network defense, offensive labs, AI security |
-| `state` | `building` |
+**right now**
 
-### `indexes`
+- a home lab i can tear down and rebuild without thinking about it
+- hardening notes a small org could actually follow
+- reading about securing model endpoints before someone else does it for me
 
-```sql
-CREATE INDEX idx_security ON engineer (environment_hardening, network_defense);
-CREATE INDEX idx_offense  ON engineer (enumeration, exploitation, reporting);
-CREATE INDEX idx_systems  ON engineer (linux, python, docker, ci);
-```
+**the honest version**
 
-### `open_loops`
+i'm a student. i'm early. i'm consistent. most of it happens after midnight,
+which is why the lab is usually in some state of broken.
 
-```sql
-SELECT * FROM work WHERE state = 'in_progress';
-```
-
-```text
-  a home lab i can build, break and rebuild without thinking about it
-  hardening baselines that a small org can actually follow
-  notes on securing model endpoints before someone else does it for me
-```
-
-### `reach`
-
-```sql
-SELECT contact FROM engineer WHERE handle = 's9ss';
--- → github.com/s9ss        open an issue, or start a discussion
-```
+if you want to talk shop, open an issue — it goes to my phone.
 
 <br />
 
 <div align="center">
-  <img src="./assets/footer.svg?v=4" width="100%" alt="assume breach" />
+  <img src="./assets/footer.svg?v=5" width="100%" alt="still up." />
 </div>
