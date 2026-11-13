@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 190" width="150" height="190" role="img" aria-label="Hand drawn flame.">
+  <g fill="none" stroke="#E6EDF3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- outer flame -->
+    <path d="M 76 14
+             C 86 44, 104 54, 112 76
+             C 122 102, 116 130, 96 146
+             C 78 160, 50 158, 36 142
+             C 20 124, 22 98, 36 82
+             C 30 104, 38 116, 50 118
+             C 62 120, 68 108, 66 94
+             C 62 70, 62 42, 76 14 Z"
+          stroke-width="4"/>
+    <!-- inner flame -->
+    <path d="M 76 74
+             C 84 90, 92 100, 92 114
+             C 92 130, 80 140, 66 138
+             C 52 136, 46 124, 50 112
+             C 52 104, 58 100, 60 92
+             C 66 100, 72 98, 74 90
+             C 76 84, 74 80, 76 74 Z"
+          stroke-width="3" opacity="0.85"/>
+    <!-- embers -->
+    <g stroke-width="2.5" opacity="0.7">
+      <path d="M 118 58 C 122 66, 120 74, 114 78"/>
+      <path d="M 28 62 C 24 70, 26 78, 32 82"/>
+      <path d="M 104 172 C 110 176, 118 176, 124 172"/>
+      <path d="M 30 164 C 24 168, 18 168, 14 164"/>
+    </g>
+  </g>
+</svg>
