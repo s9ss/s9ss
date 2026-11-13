@@ -121,9 +121,8 @@ philosophy:  ship small, ship often, ship green
 
 <div align="center">
   <a href="https://github.com/s9ss"><img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=39D353" alt="github" /></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=39D353" alt="email" /></a>
-  <a href="https://linkedin.com/in/your-handle"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=39D353" alt="linkedin" /></a>
-  <a href="https://x.com/your-handle"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=39D353" alt="x" /></a>
+  <img src="https://img.shields.io/badge/Riyadh-0D1117?style=for-the-badge&logo=googlemaps&logoColor=39D353&labelColor=0D1117" alt="riyadh" />
+  <img src="https://img.shields.io/badge/UTC%2B3-0D1117?style=for-the-badge&logo=clockify&logoColor=39D353&labelColor=0D1117" alt="utc+3" />
 </div>
 
 <br />
