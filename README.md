@@ -6,7 +6,7 @@
 
 <div align="center">
   <a href="https://github.com/s9ss?tab=repositories"><img src="https://img.shields.io/github/stars/s9ss?style=for-the-badge&label=STARS&labelColor=0B0E13&color=1C2430&logo=github&logoColor=E6EDF3" alt="total stars" /></a>
-  <a href="https://github.com/s9ss?tab=repositories"><img src="https://img.shields.io/github/repos/s9ss?style=for-the-badge&label=REPOS&labelColor=0B0E13&color=1C2430&logo=git&logoColor=E6EDF3" alt="public repos" /></a>
+  <a href="https://github.com/s9ss?tab=repositories"><img src="https://img.shields.io/github/commit-activity/y/s9ss?style=for-the-badge&label=COMMITS&labelColor=0B0E13&color=1C2430&logo=git&logoColor=E6EDF3" alt="commits this year" /></a>
   <a href="https://github.com/s9ss?tab=followers"><img src="https://img.shields.io/github/followers/s9ss?style=for-the-badge&label=FOLLOWERS&labelColor=0B0E13&color=1C2430&logo=github&logoColor=E6EDF3" alt="followers" /></a>
 </div>
 
@@ -70,7 +70,7 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <h3 align="center">Contribution</h3>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=s9ss&bg_color=0B0E13&color=E6EDF3&line=5B9DFF&point=E6EDF3&area=true&area_color=5B9DFF&hide_border=true&custom_title=s9ss" width="100%" alt="contribution graph" />
+  <img src="./assets/contribution.svg?v=1" width="100%" alt="contributions over the last twelve months" />
 </div>
 
 <br />
