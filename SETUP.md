@@ -73,4 +73,4 @@ Reads the public contribution calendar for `s9ss`, groups the last twelve months
 
 ## cache gotcha
 
-`raw.githubusercontent` caches for a few minutes and ignores query strings, so a fresh push can keep serving old bytes for up to about five. The image paths carry `?v=4`. Bump that number on every edit.
+`raw.githubusercontent` caches for a few minutes and ignores query strings, so a fresh push can keep serving old bytes for up to about five. The image paths carry `?v=5`. Bump that number on every edit.
