@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="10" viewBox="0 0 1200 10" fill="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39D353" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#39D353" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#7EE787" stop-opacity="0.95"/>
+      <stop offset="0.75" stop-color="#39D353" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#39D353" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .pulse { animation: sweep 5s ease-in-out infinite; }
+      @keyframes sweep { 0%,100% { opacity: 0.35; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect class="pulse" x="0" y="4" width="1200" height="2" rx="1" fill="url(#dline)"/>
+  <circle r="3" fill="#7EE787">
+    <animate attributeName="cx" values="0;1200" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="5;5" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

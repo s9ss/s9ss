@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" fill="none" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="waveA" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39D353" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#39D353" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1F6FEB" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="170" fill="#0D1117"/>
+  <g>
+    <path fill="url(#waveA)" d="M0 90 C 150 40, 300 140, 450 90 C 600 40, 750 140, 900 90 C 1050 40, 1200 140, 1350 90 L1350 170 L0 170 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -150 0; 0 0" dur="16s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g>
+    <path fill="url(#waveB)" d="M0 110 C 150 60, 300 160, 450 110 C 600 60, 750 160, 900 110 C 1050 60, 1200 160, 1350 110 L1350 170 L0 170 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 120 0; 0 0" dur="21s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="600" y="66" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="14" letter-spacing="4" fill="#7EE787" fill-opacity="0.8">built with data, caffeine &amp; stubborn curiosity</text>
+  <text x="600" y="92" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="12" letter-spacing="3" fill="#8B949E" fill-opacity="0.7">s9ss · riyadh · utc+3</text>
+</svg>
