@@ -1,39 +1,22 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Saud Al-Mutairi — name plate with a wifi sticker above it.">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" width="1000" height="180" role="img" aria-label="Saud Al-Mutairi — name plate.">
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0B0E13"/>
       <stop offset="1" stop-color="#141B24"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.2" r="0.7">
+    <radialGradient id="glow" cx="0.5" cy="0.1" r="0.8">
       <stop offset="0" stop-color="#1B2431"/>
       <stop offset="1" stop-color="#0B0E13" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="1000" height="300" fill="url(#panel)"/>
-  <rect width="1000" height="300" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="999" height="299" fill="none" stroke="#1C2430"/>
+  <rect width="1000" height="180" fill="url(#panel)"/>
+  <rect width="1000" height="180" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="999" height="179" fill="none" stroke="#1C2430"/>
 
-  <!-- wifi sticker -->
-  <g transform="translate(400, 18) scale(1)">
-    <g fill="none" stroke="#F2F5F9" stroke-width="42" stroke-linecap="round">
-      <path d="M 32.1 80.1 A 96 96 0 0 1 167.9 80.1"/>
-      <path d="M 54.7 102.7 A 64 64 0 0 1 145.3 102.7"/>
-      <path d="M 76 124 A 34 34 0 0 1 124 124"/>
-    </g>
-    <circle cx="100" cy="146" r="36" fill="#F2F5F9"/>
-    <g fill="none" stroke="#0B0E13" stroke-width="26" stroke-linecap="round">
-      <path d="M 32.1 80.1 A 96 96 0 0 1 167.9 80.1"/>
-      <path d="M 54.7 102.7 A 64 64 0 0 1 145.3 102.7"/>
-      <path d="M 76 124 A 34 34 0 0 1 124 124"/>
-    </g>
-    <circle cx="100" cy="146" r="20" fill="#0B0E13"/>
-  </g>
-
-  <!-- name -->
-  <text x="500" y="252" text-anchor="middle"
+  <text x="500" y="104" text-anchor="middle"
         font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif"
         font-size="58" font-weight="700" letter-spacing="7" fill="#E6EDF3">SAUD AL-MUTAIRI</text>
 
-  <path d="M 300 274 L 700 274" stroke="#5B9DFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 300 126 L 700 126" stroke="#5B9DFF" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
 </svg>

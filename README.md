@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./assets/banner.svg?v=2" alt="Saud Al-Mutairi — wifi sticker above the name" width="100%" />
+  <img src="./assets/wifi.png?v=3" width="104" alt="wifi sticker" />
+</div>
+
+<div align="center">
+  <img src="./assets/banner.svg?v=3" alt="Saud Al-Mutairi — name plate" width="100%" />
 </div>
 
 <br />
@@ -13,12 +17,12 @@
 <br />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=3" width="100%" alt="" />
 </div>
 
 <h3 align="center">Know About Me</h3>
 
-<img align="right" width="190" src="./assets/brain.svg?v=2" alt="" />
+<img align="right" width="200" src="./assets/brain.png?v=3" alt="brain sticker" />
 
 i'm Saud — a CS student in Riyadh, and most of what i do is security environments: building them, breaking them, and rebuilding them until they hold up.
 
@@ -29,12 +33,12 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <br clear="right" />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=3" width="100%" alt="" />
 </div>
 
 <h3 align="center">Top Projects <sub>(built to avoid manual labor)</sub></h3>
 
-<img align="right" width="150" src="./assets/laptop.svg?v=2" alt="" />
+<img align="right" width="170" src="./assets/laptop.png?v=3" alt="laptop sticker" />
 
 - **`lab-kit`** — a home lab i can tear down and rebuild without thinking about it.
 - **`harden-notes`** — hardening notes a small org could actually follow, not a checklist nobody reads.
@@ -43,7 +47,7 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <br clear="right" />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=3" width="100%" alt="" />
 </div>
 
 <h3 align="center">Connect</h3>
@@ -62,13 +66,13 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <br />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=3" width="100%" alt="" />
 </div>
 
 <h3 align="center">Contribution</h3>
 
 <div align="center">
-  <img src="./assets/contribution.svg?v=2" width="100%" alt="contributions over the last twelve months" />
+  <img src="./assets/contribution.svg?v=3" width="100%" alt="contributions over the last twelve months" />
 </div>
 
 <br />
