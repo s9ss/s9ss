@@ -1,25 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" fill="none" role="img" aria-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="still querying">
   <defs>
-    <linearGradient id="waveA" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#39D353" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#39D353" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="waveB" x1="0" y1="0" x2="0" y2="170" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1F6FEB" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#1F6FEB" stop-opacity="0"/>
-    </linearGradient>
+    <pattern id="grain2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.7" fill="#14110F" fill-opacity="0.09"/>
+      <circle cx="11.5" cy="13.5" r="0.5" fill="#14110F" fill-opacity="0.06"/>
+    </pattern>
+    <style>
+      .dot { animation: travel 7s cubic-bezier(0.45, 0, 0.55, 1) infinite; }
+      @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(1048px); opacity: 0; } }
+      .caret { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    </style>
   </defs>
-  <rect width="1200" height="170" fill="#0D1117"/>
-  <g>
-    <path fill="url(#waveA)" d="M0 90 C 150 40, 300 140, 450 90 C 600 40, 750 140, 900 90 C 1050 40, 1200 140, 1350 90 L1350 170 L0 170 Z">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -150 0; 0 0" dur="16s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <g>
-    <path fill="url(#waveB)" d="M0 110 C 150 60, 300 160, 450 110 C 600 60, 750 160, 900 110 C 1050 60, 1200 160, 1350 110 L1350 170 L0 170 Z">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 120 0; 0 0" dur="21s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <text x="600" y="66" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="14" letter-spacing="4" fill="#7EE787" fill-opacity="0.8">built with data, caffeine &amp; stubborn curiosity</text>
-  <text x="600" y="92" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace" font-size="12" letter-spacing="3" fill="#8B949E" fill-opacity="0.7">s9ss · riyadh · utc+3</text>
+
+  <rect width="1200" height="200" fill="#F4F0E6"/>
+  <rect width="1200" height="200" fill="url(#grain2)"/>
+
+  <text x="56" y="96" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="42" font-style="italic" fill="#14110F">still querying.</text>
+  <text x="56" y="126" font-family="'JetBrains Mono', 'SF Mono', Consolas, ui-monospace, monospace" font-size="11.5" letter-spacing="1.8" fill="#7A7065">riyadh · utc+3 · open to collaboration · no rows withheld</text>
+
+  <rect class="caret" x="330" y="78" width="9" height="26" fill="#C2410C"/>
+
+  <line x1="56" y1="156" x2="1144" y2="156" stroke="#14110F" stroke-opacity="0.16"/>
+  <circle class="dot" cx="56" cy="156" r="3" fill="#C2410C"/>
+  <text x="1144" y="182" text-anchor="end" font-family="'JetBrains Mono', Consolas, monospace" font-size="10.5" letter-spacing="1.6" fill="#7A7065">end of result set</text>
 </svg>

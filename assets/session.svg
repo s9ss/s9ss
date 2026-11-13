@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="A database session showing the engineer table for s9ss">
+  <defs>
+    <pattern id="grain" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.7" fill="#14110F" fill-opacity="0.09"/>
+      <circle cx="11.5" cy="13.5" r="0.5" fill="#14110F" fill-opacity="0.06"/>
+    </pattern>
+    <mask id="reveal">
+      <rect x="50" y="110" width="520" height="34" fill="#ffffff" class="typer"/>
+    </mask>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Cascadia Mono', Consolas, ui-monospace, monospace; }
+      .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif; }
+
+      .typer { animation: type 1.5s steps(56, end) 0.35s both; }
+      @keyframes type { from { width: 0; } to { width: 520px; } }
+
+      .row { opacity: 0; animation: rowIn 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+      .row-1 { animation-delay: 2.05s; }
+      .row-2 { animation-delay: 2.25s; }
+      .row-3 { animation-delay: 2.45s; }
+      .row-4 { animation-delay: 2.65s; }
+
+      .meta { opacity: 0; animation: fade 0.6s ease-out 2.9s both; }
+      .caret { animation: blink 1.05s steps(1) 2.2s infinite; opacity: 0; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+      .sweep { animation: scan 4.6s cubic-bezier(0.45, 0, 0.55, 1) 3s infinite; }
+      @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateY(128px); opacity: 0; } }
+
+      @keyframes rowIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" fill="#F4F0E6"/>
+  <rect width="1200" height="520" fill="url(#grain)"/>
+  <rect x="24" y="24" width="1152" height="472" fill="none" stroke="#14110F" stroke-opacity="0.20"/>
+
+  <text class="serif" x="56" y="64" font-size="16" letter-spacing="4.5" fill="#14110F">SAUD AL-MUTAIRI</text>
+  <text class="mono" x="1144" y="64" text-anchor="end" font-size="11" letter-spacing="1.5" fill="#7A7065">s9ss / riyadh / utc+3</text>
+  <line x1="56" y1="86" x2="1144" y2="86" stroke="#14110F" stroke-opacity="0.16"/>
+
+  <text class="mono" x="56" y="134" font-size="15" mask="url(#reveal)">
+    <tspan fill="#C2410C">s9ss=# </tspan><tspan fill="#14110F">SELECT skill, since FROM engineer ORDER BY since;</tspan>
+  </text>
+  <rect class="caret" x="572" y="121" width="8" height="15" fill="#C2410C"/>
+
+  <text class="mono" x="56" y="184" font-size="10.5" letter-spacing="2.4" fill="#7A7065">SKILL</text>
+  <text class="mono" x="1144" y="184" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#7A7065">SINCE</text>
+  <line x1="56" y1="197" x2="1144" y2="197" stroke="#14110F" stroke-opacity="0.16"/>
+
+  <g class="sweep">
+    <rect x="44" y="203" width="1112" height="30" fill="#C2410C" fill-opacity="0.07"/>
+  </g>
+
+  <g class="row row-1">
+    <text class="mono" x="56" y="228" font-size="15" fill="#14110F">sql</text>
+    <text class="mono" x="1144" y="228" text-anchor="end" font-size="15" fill="#7A7065">2021</text>
+  </g>
+  <line class="row row-1" x1="56" y1="241" x2="1144" y2="241" stroke="#14110F" stroke-opacity="0.08"/>
+
+  <g class="row row-2">
+    <text class="mono" x="56" y="262" font-size="15" fill="#14110F">python</text>
+    <text class="mono" x="1144" y="262" text-anchor="end" font-size="15" fill="#7A7065">2022</text>
+  </g>
+  <line class="row row-2" x1="56" y1="275" x2="1144" y2="275" stroke="#14110F" stroke-opacity="0.08"/>
+
+  <g class="row row-3">
+    <text class="mono" x="56" y="296" font-size="15" fill="#14110F">machine_learning</text>
+    <text class="mono" x="1144" y="296" text-anchor="end" font-size="15" fill="#7A7065">2024</text>
+  </g>
+  <line class="row row-3" x1="56" y1="309" x2="1144" y2="309" stroke="#14110F" stroke-opacity="0.08"/>
+
+  <g class="row row-4">
+    <text class="mono" x="56" y="330" font-size="15" fill="#14110F">llm_tooling</text>
+    <text class="mono" x="1144" y="330" text-anchor="end" font-size="15" fill="#7A7065">2025</text>
+  </g>
+
+  <g class="meta">
+    <text class="mono" x="56" y="372" font-size="12.5" fill="#C2410C">(4 rows)</text>
+    <text class="mono" x="126" y="372" font-size="12.5" fill="#7A7065">·  planning 0.014 ms  ·  execution 0.31 ms</text>
+  </g>
+
+  <line x1="56" y1="446" x2="1144" y2="446" stroke="#14110F" stroke-opacity="0.16"/>
+  <text class="mono" x="56" y="470" font-size="10.5" letter-spacing="1.6" fill="#7A7065">indexes: idx_languages · idx_data · idx_ml · idx_infra</text>
+  <text class="mono" x="1144" y="470" text-anchor="end" font-size="10.5" letter-spacing="1.6" fill="#7A7065">EXPLAIN (ANALYZE, BUFFERS)</text>
+</svg>
