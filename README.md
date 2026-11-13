@@ -13,8 +13,6 @@ building them, breaking them, and rebuilding them until they hold up.
 - hardening notes a small org could actually follow
 - reading about securing model endpoints before someone else does it for me
 
-**the honest version**
-
 i'm a student. i'm early. i'm consistent. most of it happens after midnight,
 which is why the lab is usually in some state of broken.
 
