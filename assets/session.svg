@@ -1,87 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="A database session showing the engineer table for s9ss">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="A database session showing the engineer table for s9ss">
   <defs>
-    <pattern id="grain" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="1.5" cy="1.5" r="0.7" fill="#14110F" fill-opacity="0.09"/>
-      <circle cx="11.5" cy="13.5" r="0.5" fill="#14110F" fill-opacity="0.06"/>
+    <radialGradient id="paper" cx="0.5" cy="0.35" r="0.9">
+      <stop offset="0" stop-color="#FBF9F3"/>
+      <stop offset="0.65" stop-color="#F6F2E9"/>
+      <stop offset="1" stop-color="#EFE9DD"/>
+    </radialGradient>
+
+    <pattern id="grain" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="0.65" fill="#1F1B18" fill-opacity="0.055"/>
+      <circle cx="12.5" cy="14.5" r="0.45" fill="#1F1B18" fill-opacity="0.04"/>
     </pattern>
-    <mask id="reveal">
-      <rect x="50" y="110" width="520" height="34" fill="#ffffff" class="typer"/>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.9" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9512C" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A9512C" stop-opacity="0.065"/>
+      <stop offset="1" stop-color="#A9512C" stop-opacity="0"/>
+    </linearGradient>
+
+    <mask id="wipe">
+      <g class="wipe" transform="translate(-230 0)">
+        <rect x="0" y="112" width="900" height="60" fill="url(#edge)"/>
+      </g>
     </mask>
+
     <style>
-      .mono { font-family: 'JetBrains Mono', 'SF Mono', 'Cascadia Mono', Consolas, ui-monospace, monospace; }
+      .mono  { font-family: 'JetBrains Mono', 'SF Mono', 'Cascadia Mono', Consolas, ui-monospace, monospace; }
       .serif { font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif; }
 
-      .typer { animation: type 1.5s steps(56, end) 0.35s both; }
-      @keyframes type { from { width: 0; } to { width: 520px; } }
+      .wipe { animation: wipe 2.4s cubic-bezier(0.32, 0.9, 0.28, 1) 0.35s both; }
+      @keyframes wipe {
+        from { transform: translateX(-880px); }
+        to   { transform: translateX(-230px); }
+      }
 
-      .row { opacity: 0; animation: rowIn 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
-      .row-1 { animation-delay: 2.05s; }
-      .row-2 { animation-delay: 2.25s; }
-      .row-3 { animation-delay: 2.45s; }
-      .row-4 { animation-delay: 2.65s; }
+      .row { animation: rowIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
+      .row-1 { animation-delay: 2.45s; }
+      .row-2 { animation-delay: 2.69s; }
+      .row-3 { animation-delay: 2.93s; }
+      .row-4 { animation-delay: 3.17s; }
+      @keyframes rowIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
 
-      .meta { opacity: 0; animation: fade 0.6s ease-out 2.9s both; }
-      .caret { animation: blink 1.05s steps(1) 2.2s infinite; opacity: 0; }
-      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-
-      .sweep { animation: scan 4.6s cubic-bezier(0.45, 0, 0.55, 1) 3s infinite; }
-      @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateY(128px); opacity: 0; } }
-
-      @keyframes rowIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+      .meta { animation: fade 1.1s ease-out 3.6s both; }
       @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+      .caret { animation: caret 1.5s ease-in-out 2.9s infinite; }
+      @keyframes caret {
+        0%, 100% { opacity: 1; }
+        50%      { opacity: 0.05; }
+      }
+
+      .sweep { animation: scan 7.5s cubic-bezier(0.45, 0, 0.55, 1) 4s infinite; }
+      @keyframes scan {
+        0%   { transform: translateY(0);      opacity: 0; }
+        15%  { opacity: 1; }
+        85%  { opacity: 1; }
+        100% { transform: translateY(146px);  opacity: 0; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .wipe, .row, .meta, .caret { animation: none; }
+        .sweep { display: none; }
+      }
     </style>
   </defs>
 
-  <rect width="1200" height="520" fill="#F4F0E6"/>
-  <rect width="1200" height="520" fill="url(#grain)"/>
-  <rect x="24" y="24" width="1152" height="472" fill="none" stroke="#14110F" stroke-opacity="0.20"/>
+  <rect width="1200" height="560" fill="url(#paper)"/>
+  <rect width="1200" height="560" fill="url(#grain)"/>
+  <rect x="28" y="28" width="1144" height="504" fill="none" stroke="#1F1B18" stroke-opacity="0.13"/>
 
-  <text class="serif" x="56" y="64" font-size="16" letter-spacing="4.5" fill="#14110F">SAUD AL-MUTAIRI</text>
-  <text class="mono" x="1144" y="64" text-anchor="end" font-size="11" letter-spacing="1.5" fill="#7A7065">s9ss / riyadh / utc+3</text>
-  <line x1="56" y1="86" x2="1144" y2="86" stroke="#14110F" stroke-opacity="0.16"/>
+  <text class="serif" x="60" y="70" font-size="17" letter-spacing="4.2" fill="#1F1B18">SAUD AL-MUTAIRI</text>
+  <text class="mono" x="1140" y="70" text-anchor="end" font-size="11" letter-spacing="1.8" fill="#8B8279">s9ss / riyadh / utc+3</text>
+  <line x1="60" y1="94" x2="1140" y2="94" stroke="#1F1B18" stroke-opacity="0.11"/>
 
-  <text class="mono" x="56" y="134" font-size="15" mask="url(#reveal)">
-    <tspan fill="#C2410C">s9ss=# </tspan><tspan fill="#14110F">SELECT skill, since FROM engineer ORDER BY since;</tspan>
+  <text class="mono" x="60" y="150" font-size="15" letter-spacing="0.2" mask="url(#wipe)">
+    <tspan fill="#A9512C">s9ss=# </tspan><tspan fill="#1F1B18">SELECT skill, since FROM engineer ORDER BY since;</tspan>
   </text>
-  <rect class="caret" x="572" y="121" width="8" height="15" fill="#C2410C"/>
+  <rect class="caret" x="572" y="137" width="8" height="16" rx="1" fill="#A9512C"/>
 
-  <text class="mono" x="56" y="184" font-size="10.5" letter-spacing="2.4" fill="#7A7065">SKILL</text>
-  <text class="mono" x="1144" y="184" text-anchor="end" font-size="10.5" letter-spacing="2.4" fill="#7A7065">SINCE</text>
-  <line x1="56" y1="197" x2="1144" y2="197" stroke="#14110F" stroke-opacity="0.16"/>
+  <text class="mono" x="60" y="204" font-size="10.5" letter-spacing="2.6" fill="#8B8279">SKILL</text>
+  <text class="mono" x="1140" y="204" text-anchor="end" font-size="10.5" letter-spacing="2.6" fill="#8B8279">SINCE</text>
+  <line x1="60" y1="217" x2="1140" y2="217" stroke="#1F1B18" stroke-opacity="0.11"/>
 
   <g class="sweep">
-    <rect x="44" y="203" width="1112" height="30" fill="#C2410C" fill-opacity="0.07"/>
+    <rect x="44" y="222" width="1112" height="72" fill="url(#band)"/>
   </g>
 
   <g class="row row-1">
-    <text class="mono" x="56" y="228" font-size="15" fill="#14110F">sql</text>
-    <text class="mono" x="1144" y="228" text-anchor="end" font-size="15" fill="#7A7065">2021</text>
+    <text class="mono" x="60" y="252" font-size="15" fill="#1F1B18">sql</text>
+    <text class="mono" x="1140" y="252" text-anchor="end" font-size="15" fill="#8B8279">2021</text>
   </g>
-  <line class="row row-1" x1="56" y1="241" x2="1144" y2="241" stroke="#14110F" stroke-opacity="0.08"/>
+  <line class="row row-1" x1="60" y1="265" x2="1140" y2="265" stroke="#1F1B18" stroke-opacity="0.055"/>
 
   <g class="row row-2">
-    <text class="mono" x="56" y="262" font-size="15" fill="#14110F">python</text>
-    <text class="mono" x="1144" y="262" text-anchor="end" font-size="15" fill="#7A7065">2022</text>
+    <text class="mono" x="60" y="290" font-size="15" fill="#1F1B18">python</text>
+    <text class="mono" x="1140" y="290" text-anchor="end" font-size="15" fill="#8B8279">2022</text>
   </g>
-  <line class="row row-2" x1="56" y1="275" x2="1144" y2="275" stroke="#14110F" stroke-opacity="0.08"/>
+  <line class="row row-2" x1="60" y1="303" x2="1140" y2="303" stroke="#1F1B18" stroke-opacity="0.055"/>
 
   <g class="row row-3">
-    <text class="mono" x="56" y="296" font-size="15" fill="#14110F">machine_learning</text>
-    <text class="mono" x="1144" y="296" text-anchor="end" font-size="15" fill="#7A7065">2024</text>
+    <text class="mono" x="60" y="328" font-size="15" fill="#1F1B18">machine_learning</text>
+    <text class="mono" x="1140" y="328" text-anchor="end" font-size="15" fill="#8B8279">2024</text>
   </g>
-  <line class="row row-3" x1="56" y1="309" x2="1144" y2="309" stroke="#14110F" stroke-opacity="0.08"/>
+  <line class="row row-3" x1="60" y1="341" x2="1140" y2="341" stroke="#1F1B18" stroke-opacity="0.055"/>
 
   <g class="row row-4">
-    <text class="mono" x="56" y="330" font-size="15" fill="#14110F">llm_tooling</text>
-    <text class="mono" x="1144" y="330" text-anchor="end" font-size="15" fill="#7A7065">2025</text>
+    <text class="mono" x="60" y="366" font-size="15" fill="#1F1B18">llm_tooling</text>
+    <text class="mono" x="1140" y="366" text-anchor="end" font-size="15" fill="#8B8279">2025</text>
   </g>
 
   <g class="meta">
-    <text class="mono" x="56" y="372" font-size="12.5" fill="#C2410C">(4 rows)</text>
-    <text class="mono" x="126" y="372" font-size="12.5" fill="#7A7065">·  planning 0.014 ms  ·  execution 0.31 ms</text>
+    <text class="mono" x="60" y="414" font-size="12.5" fill="#A9512C">(4 rows)</text>
+    <text class="mono" x="132" y="414" font-size="12.5" letter-spacing="0.2" fill="#8B8279">·  planning 0.014 ms  ·  execution 0.31 ms</text>
   </g>
 
-  <line x1="56" y1="446" x2="1144" y2="446" stroke="#14110F" stroke-opacity="0.16"/>
-  <text class="mono" x="56" y="470" font-size="10.5" letter-spacing="1.6" fill="#7A7065">indexes: idx_languages · idx_data · idx_ml · idx_infra</text>
-  <text class="mono" x="1144" y="470" text-anchor="end" font-size="10.5" letter-spacing="1.6" fill="#7A7065">EXPLAIN (ANALYZE, BUFFERS)</text>
+  <line x1="60" y1="478" x2="1140" y2="478" stroke="#1F1B18" stroke-opacity="0.11"/>
+  <text class="mono" x="60" y="504" font-size="10.5" letter-spacing="1.8" fill="#8B8279">indexes: idx_languages · idx_data · idx_ml · idx_infra</text>
+  <text class="mono" x="1140" y="504" text-anchor="end" font-size="10.5" letter-spacing="1.8" fill="#8B8279">EXPLAIN (ANALYZE, BUFFERS)</text>
 </svg>
