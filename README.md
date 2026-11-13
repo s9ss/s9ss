@@ -7,9 +7,6 @@
 i'm Saud, a CS student in Riyadh. most of what i do is security environments:
 building them, breaking them, and rebuilding them until they hold up.
 
-i also play Rocket League. grand champ 2, which is somehow the part of my life
-with the most patience in it.
-
 **right now**
 
 - a home lab i can tear down and rebuild without thinking about it
