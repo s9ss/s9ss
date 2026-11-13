@@ -73,4 +73,4 @@ Reads the public contribution calendar for `s9ss`, groups the last twelve months
 
 ## cache gotcha
 
-`raw.githubusercontent` caches for a few minutes and ignores query strings, so a fresh push can keep serving old bytes for up to about five. The image paths carry `?v=5`. Bump that number on every edit.
+`github.com/<owner>/<repo>/raw/...` answers with a 302 to `raw.githubusercontent.com`, and the query string is dropped on the way. That host caches by path for a few minutes, so a fresh push can keep serving the old bytes for up to about five minutes no matter what you append to the URL. The image paths therefore carry no version query — it would only be decoration. Wait it out, or check the file in the blob view instead of the profile page.
