@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 176" width="200" height="176" role="img" aria-label="Wifi sticker.">
+  <defs>
+    <pattern id="ht" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="2.5" cy="2.5" r="1.4" fill="#F2F5F9" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- die-cut border -->
+  <g fill="none" stroke="#F2F5F9" stroke-width="42" stroke-linecap="round">
+    <path d="M 32.1 80.1 A 96 96 0 0 1 167.9 80.1"/>
+    <path d="M 54.7 102.7 A 64 64 0 0 1 145.3 102.7"/>
+    <path d="M 76 124 A 34 34 0 0 1 124 124"/>
+  </g>
+  <circle cx="100" cy="146" r="36" fill="#F2F5F9"/>
+
+  <!-- ink -->
+  <g fill="none" stroke="#0B0E13" stroke-width="26" stroke-linecap="round">
+    <path d="M 32.1 80.1 A 96 96 0 0 1 167.9 80.1"/>
+    <path d="M 54.7 102.7 A 64 64 0 0 1 145.3 102.7"/>
+    <path d="M 76 124 A 34 34 0 0 1 124 124"/>
+  </g>
+  <circle cx="100" cy="146" r="20" fill="#0B0E13"/>
+
+  <!-- halftone texture -->
+  <g fill="url(#ht)">
+    <circle cx="100" cy="146" r="20"/>
+    <path d="M 32.1 80.1 A 96 96 0 0 1 167.9 80.1" fill="none" stroke="url(#ht)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M 54.7 102.7 A 64 64 0 0 1 145.3 102.7" fill="none" stroke="url(#ht)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M 76 124 A 34 34 0 0 1 124 124" fill="none" stroke="url(#ht)" stroke-width="26" stroke-linecap="round"/>
+  </g>
+</svg>

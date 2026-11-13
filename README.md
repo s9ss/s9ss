@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg?v=1" alt="Synax — brush wordmark beside an ink portrait" width="100%" />
+  <img src="./assets/banner.svg?v=2" alt="Saud Al-Mutairi — wifi sticker above the name" width="100%" />
 </div>
 
 <br />
@@ -13,12 +13,12 @@
 <br />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=1" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
 </div>
 
 <h3 align="center">Know About Me</h3>
 
-<img align="right" width="190" src="./assets/brain.svg?v=1" alt="" />
+<img align="right" width="190" src="./assets/brain.svg?v=2" alt="" />
 
 i'm Saud — a CS student in Riyadh, and most of what i do is security environments: building them, breaking them, and rebuilding them until they hold up.
 
@@ -29,12 +29,12 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <br clear="right" />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=1" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
 </div>
 
 <h3 align="center">Top Projects <sub>(built to avoid manual labor)</sub></h3>
 
-<img align="right" width="140" src="./assets/flame.svg?v=1" alt="" />
+<img align="right" width="150" src="./assets/laptop.svg?v=2" alt="" />
 
 - **`lab-kit`** — a home lab i can tear down and rebuild without thinking about it.
 - **`harden-notes`** — hardening notes a small org could actually follow, not a checklist nobody reads.
@@ -43,16 +43,14 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <br clear="right" />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=1" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
 </div>
 
 <h3 align="center">Connect</h3>
 
 <div align="center">
   <a href="https://github.com/s9ss"><img src="https://img.shields.io/badge/GITHUB-s9ss-0B0E13?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/saud"><img src="https://img.shields.io/badge/LINKEDIN-saud-0B0E13?style=for-the-badge&logo=linkedin&logoColor=E6EDF3" alt="LinkedIn" /></a>
-  <a href="mailto:hello@example.com"><img src="https://img.shields.io/badge/MAIL-hello-0B0E13?style=for-the-badge&logo=protonmail&logoColor=E6EDF3" alt="Email" /></a>
-  <a href="https://github.com/s9ss/s9ss/raw/main/assets/resume.pdf"><img src="https://img.shields.io/badge/RESUME-pdf-0B0E13?style=for-the-badge&logo=adobeacrobatreader&logoColor=E6EDF3" alt="Resume" /></a>
+  <a href="mailto:saud1221@proton.me"><img src="https://img.shields.io/badge/MAIL-saud1221@proton.me-0B0E13?style=for-the-badge&logo=protonmail&logoColor=E6EDF3" alt="Email" /></a>
 </div>
 
 <br />
@@ -64,13 +62,13 @@ when i'm not doing that i'm grinding Rocket League. grand champ 2, which is some
 <br />
 
 <div align="center">
-  <img src="./assets/rule.svg?v=1" width="100%" alt="" />
+  <img src="./assets/rule.svg?v=2" width="100%" alt="" />
 </div>
 
 <h3 align="center">Contribution</h3>
 
 <div align="center">
-  <img src="./assets/contribution.svg?v=1" width="100%" alt="contributions over the last twelve months" />
+  <img src="./assets/contribution.svg?v=2" width="100%" alt="contributions over the last twelve months" />
 </div>
 
 <br />

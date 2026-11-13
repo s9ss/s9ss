@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 210" width="230" height="210" role="img" aria-label="Laptop sticker.">
+  <defs>
+    <pattern id="ht" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="3" cy="3" r="2" fill="#F2F5F9" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- die-cut border -->
+  <g fill="#F2F5F9" stroke="#F2F5F9" stroke-width="22" stroke-linejoin="round">
+    <path d="M 92 26 L 186 30 L 206 128 L 112 124 Z"/>
+    <path d="M 40 132 L 112 124 L 206 128 L 178 178 L 62 186 Z"/>
+    <path d="M 30 140 C 52 122, 86 122, 104 138 C 118 150, 106 168, 84 170 C 56 172, 32 158, 30 140 Z"/>
+    <path d="M 132 150 C 152 138, 180 140, 192 154 C 202 166, 190 180, 170 180 C 148 180, 128 166, 132 150 Z"/>
+  </g>
+
+  <!-- screen -->
+  <path d="M 92 26 L 186 30 L 206 128 L 112 124 Z" fill="#0B0E13"/>
+  <path d="M 100 38 L 178 41 L 195 116 L 118 113 Z" fill="#F2F5F9" opacity="0.12"/>
+
+  <!-- deck -->
+  <path d="M 40 132 L 112 124 L 206 128 L 178 178 L 62 186 Z" fill="#0B0E13"/>
+
+  <!-- keys -->
+  <g fill="#F2F5F9" opacity="0.5">
+    <path d="M 96 132 L 150 130 L 150 138 L 96 140 Z"/>
+    <path d="M 92 146 L 152 144 L 152 152 L 92 154 Z"/>
+    <path d="M 88 160 L 154 158 L 154 166 L 88 168 Z"/>
+  </g>
+
+  <!-- hands -->
+  <path d="M 30 140 C 52 122, 86 122, 104 138 C 118 150, 106 168, 84 170 C 56 172, 32 158, 30 140 Z" fill="#0B0E13"/>
+  <path d="M 132 150 C 152 138, 180 140, 192 154 C 202 166, 190 180, 170 180 C 148 180, 128 166, 132 150 Z" fill="#0B0E13"/>
+
+  <!-- fingers -->
+  <g fill="none" stroke="#F2F5F9" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <path d="M 42 142 C 58 134, 78 134, 92 144"/>
+    <path d="M 44 154 C 60 146, 80 146, 94 156"/>
+    <path d="M 140 156 C 154 148, 172 150, 184 160"/>
+    <path d="M 144 168 C 158 160, 176 162, 186 172"/>
+  </g>
+
+  <!-- halftone -->
+  <g fill="url(#ht)">
+    <path d="M 92 26 L 186 30 L 206 128 L 112 124 Z"/>
+    <path d="M 40 132 L 112 124 L 206 128 L 178 178 L 62 186 Z"/>
+    <path d="M 30 140 C 52 122, 86 122, 104 138 C 118 150, 106 168, 84 170 C 56 172, 32 158, 30 140 Z"/>
+    <path d="M 132 150 C 152 138, 180 140, 192 154 C 202 166, 190 180, 170 180 C 148 180, 128 166, 132 150 Z"/>
+  </g>
+</svg>
