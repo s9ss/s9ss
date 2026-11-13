@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="A late-night terminal log next to a plain list of what Saudx0 can do">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="A late night terminal log for Saudx0, next to a plain list of what he can do">
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0B0E13"/>
@@ -17,12 +17,14 @@
 
       .line { animation: print 0.6s cubic-bezier(0.22, 1, 0.36, 1) both; }
       .l1 { animation-delay: 0.30s; }
-      .l2 { animation-delay: 0.50s; }
-      .l3 { animation-delay: 0.66s; }
-      .l4 { animation-delay: 0.82s; }
-      .l5 { animation-delay: 1.10s; }
-      .l6 { animation-delay: 1.26s; }
-      .l7 { animation-delay: 1.42s; }
+      .l2 { animation-delay: 0.48s; }
+      .l3 { animation-delay: 0.64s; }
+      .l4 { animation-delay: 0.80s; }
+      .l5 { animation-delay: 1.08s; }
+      .l6 { animation-delay: 1.24s; }
+      .l7 { animation-delay: 1.40s; }
+      .l8 { animation-delay: 1.70s; }
+      .l9 { animation-delay: 1.86s; }
       @keyframes print {
         from { opacity: 0; transform: translateY(4px); }
         to   { opacity: 1; transform: translateY(0); }
@@ -34,13 +36,13 @@
       .r3 { animation-delay: 1.15s; }
       .r4 { animation-delay: 1.35s; }
 
-      .caret { animation: breathe 1.9s ease-in-out 1.7s infinite both; }
+      .caret { animation: breathe 1.9s ease-in-out 2.1s infinite both; }
       @keyframes breathe {
         0%, 100% { opacity: 1; }
         50%      { opacity: 0.12; }
       }
 
-      .fade { animation: fade 0.9s ease-out 1.9s both; }
+      .fade { animation: fade 0.9s ease-out 2.2s both; }
       @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 
       @media (prefers-reduced-motion: reduce) {
@@ -91,7 +93,16 @@
   </g>
   <g class="line l7">
     <text class="mono" x="78" y="360" font-size="13" fill="#8798A8">read the docs first</text>
-    <rect class="caret" x="262" y="348" width="7" height="14" rx="1" fill="#5B9DFF"/>
+  </g>
+
+  <g class="line l8">
+    <text class="mono" x="60" y="404" font-size="13" fill="#5B9DFF">$</text>
+    <text class="mono" x="78" y="404" font-size="13" fill="#B9C6D3">echo $rank</text>
+  </g>
+  <g class="line l9">
+    <text class="mono" x="78" y="432" font-size="13" fill="#E6EDF3">grand champ 2</text>
+    <text class="mono" x="212" y="432" font-size="13" fill="#4C5A69">rocket league</text>
+    <rect class="caret" x="316" y="420" width="7" height="14" rx="1" fill="#5B9DFF"/>
   </g>
 
   <text class="mono" x="528" y="140" font-size="10" letter-spacing="2.6" fill="#68788A">things i can do</text>

@@ -1,11 +1,14 @@
 <div align="center">
-  <img src="./assets/session.svg?v=5" alt="A late-night terminal log: two VMs up, one broken again, a todo list that says harden the baseline and read the docs first. Beside it, what Saudx0 can do." width="100%" />
+  <img src="./assets/session.svg?v=6" alt="A late night terminal log for Saudx0: two VMs up, one broken again, a todo list, and grand champ 2 in Rocket League. Beside it, a plain list of what he can do." width="100%" />
 </div>
 
 <br />
 
-i'm Saud — a CS student in Riyadh. most of what i do is security environments:
+i'm Saud, a CS student in Riyadh. most of what i do is security environments:
 building them, breaking them, and rebuilding them until they hold up.
+
+i also play Rocket League. grand champ 2, which is somehow the part of my life
+with the most patience in it.
 
 **right now**
 
@@ -18,10 +21,10 @@ building them, breaking them, and rebuilding them until they hold up.
 i'm a student. i'm early. i'm consistent. most of it happens after midnight,
 which is why the lab is usually in some state of broken.
 
-if you want to talk shop, open an issue — it goes to my phone.
+if you want to talk shop, open an issue. it goes to my phone.
 
 <br />
 
 <div align="center">
-  <img src="./assets/footer.svg?v=5" width="100%" alt="still up." />
+  <img src="./assets/footer.svg?v=6" width="100%" alt="still up." />
 </div>

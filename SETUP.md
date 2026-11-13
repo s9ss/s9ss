@@ -1,42 +1,42 @@
 # s9ss profile
 
-Two SVG artifacts and a README of SQL. No badge wall, no stats cards, no typing GIF.
+Two hand drawn SVGs and a short README. No badges, no stats cards, no typing GIF.
 
 ```
 s9ss/
 ├── README.md
 └── assets/
-    ├── session.svg    ← the header: a live database session
-    └── footer.svg     ← typographic footer
+    ├── session.svg    header: a late night terminal log
+    └── footer.svg     typographic footer
 ```
 
 ## what moves
 
 | file | motion |
 | :-- | :-- |
-| `session.svg` | query types in character by character (mask + CSS `steps()`), table rows cascade in on a stagger, accent scan-bar sweeps the rows forever, cursor blinks |
-| `footer.svg` | caret blinks, accent dot travels the baseline every 7s |
+| `session.svg` | nine log lines print in one at a time, the caret breathes on a 1.9s sine |
+| `footer.svg` | accent caret breathes, a soft line travels the rule every 8s |
 
-Both are pure SVG with CSS keyframes. No scripts, no external requests, no service that can go down. They render as `<img>` on GitHub, so only inline CSS and SMIL survive — everything here is inside that envelope.
+Pure SVG with CSS keyframes. Nothing is fetched at runtime, so nothing can go down. Both files also stop moving entirely under `prefers-reduced-motion: reduce`.
 
 ## palette
 
 ```
-paper   #F4F0E6
-ink     #14110F
-muted   #7A7065
-accent  #C2410C
+panel   #0B0E13 to #141B24
+ink     #E6EDF3
+muted   #68788A
+accent  #5B9DFF
 ```
 
-One accent, used only for the prompt, the cursor, the scan bar and the row count.
+One accent, used for prompts, the caret and the footer caret. Nowhere else.
 
 ## editing
 
-- Fonts are system stacks on purpose. SVG inside `<img>` cannot load webfonts. Serif is `Iowan Old Style / Palatino / Georgia`; mono is `JetBrains Mono / SF Mono / Consolas`. If a viewer lacks all of them, the fallback still reads correctly.
-- Text is plain `<text>` — edit the string, keep `text-anchor` and coordinates and it stays put.
-- The typewriter mask width (`520px`) is tuned to the current query string. Longer query → bump the `@keyframes type` end width and the mask rect width together, or the tail gets clipped.
-- Row stagger lives in `.row-1` … `.row-4` `animation-delay`. Add a row: duplicate the group, add `.row-N` with the next delay, shift the `y` values.
+- Fonts are system stacks. SVG inside an `<img>` cannot load webfonts. Headings fall back to Inter, SF Pro, Segoe UI. Body is JetBrains Mono, SF Mono, Consolas.
+- All text is plain `<text>`. Edit the string, keep `text-anchor` and the coordinates.
+- Log lines are `g` groups classed `.l1` through `.l9`. Each carries its own `animation-delay`. Add one by copying a group and giving it the next delay step (about 160ms).
+- The caret sits at a fixed x. Move it when you change the length of the line it follows.
 
-## repo setup
+## cache gotcha
 
-The profile README only loads from a public repo named exactly `s9ss`. That's it — no Actions, no secrets, nothing to keep alive.
+`raw.githubusercontent` caches for a few minutes and ignores query strings, so a fresh push can keep serving old bytes for up to about five. The image paths carry `?v=6`. Bump that number on every edit so GitHub's own proxy re-resolves the file.
